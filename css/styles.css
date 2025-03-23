@@ -95,6 +95,45 @@ h4 {
 
 }
 
+/* Botón de llamada a la acción */
+.boton-azul {
+  background-color: #0044cc; /* Azul */
+  color: white;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-azul:hover {
+  background-color: #003399; /* Azul oscuro */
+  transform: scale(1.05);
+}
+
+.boton-llamativo {
+  background-color: #ff6600; /* Naranja */
+  color: white;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-llamativo:hover {
+  background-color: #cc5200; /* Naranja oscuro */
+  transform: scale(1.05);
+}
+
  /** contenedores**/
 .contenedor {
     width: 95%;
@@ -118,6 +157,14 @@ h4 {
     background-size: cover;
     height: 100vh;
     min-height: 60rem;
+}
+
+/* Contenido del encabezado */
+.header-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
 }
 
 .contenido-header {
